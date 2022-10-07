@@ -3,7 +3,7 @@
     <head>
         <!-- Used by Keybord-->
         <meta charset="utf-8">
-        <title>Child Template Webpage</title>
+        <title>Childtemplate Webpage</title>
         <!--Used by Browser or google search-->
         <meta name="author" content="Viktoriia Lysenko">
         <meta name="description" content="Learning HTML by building a simple website">
@@ -24,21 +24,84 @@
 
         <!-- Cyber Security Note about JavaScript in Browsers-->
         <noscript>Running JavaScript is not necessary in this page... FVI: your feature of execute scripts is turned off </noscript>
+        <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4/4259.png" alt="Images\4259.png">
         <link rel="stylesheet" href="Style childpages.css">
-         <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4/4259.png" alt="Images\4259.png">
-</head>
+     <style>
+        *{
+            box-sizing: border-box;
+            font-size: 2vw;
+            
+        }
+       
+         .header{
+            padding: 15px;
+            text-align: center;
+        }
+        .menu {
+                width: 100%;
+              text-align: center;
+                padding: 15px;
+    
+            }
+
+        .main {
+                width: 75%;
+                float: left;
+                padding: 15px;
+              
+            }
+
+         .aside {
+            width: 25%;
+    float: right;
+    padding: 15px;
+    height: auto;
+            
+            }
+            
+        .section{
+            width: 75%;
+             float: right;
+             padding: 15px;
+           
+        }  
+        .article{
+            width: 30%;
+             float: left;
+             padding: 15px;
+            
+        }
+        .footer{
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            text-align: center;
+        }
+             
+     </style>
     </head>
     <body>
-        <header>Header</header>
-        <nav>Navigation</nav>
-        <Aside>Aside</Aside>
-        <main>Main</main>
-        <section>Section</section>
-        <article>Article</article>
+        <div>
+        <header class="header"><h1>Childtemplate</h1></header>
+        <nav class="menu"><h1>Navigation</h1></nav>
+            <Aside class="aside">
+                <a>
+                    This is a aside space
+                </a>
+                <ul>
+                    <li><a href="https://viktorialysenko.github.io/Learning-html/">Index page</a></li>
+                  </ul>
+                <br><br><br>
+            </Aside>
+        <main class="main"><h1>Main space</h1>
+        <section class="section"><h1>Section</h1>
+            <article class="article">Article</article>
+        </section>
+    </main>
+      </div>
     </body>
-    <footer>
+    <footer class="footer">
         <!-- Date Adcessed 20220919-->
-       
-        <p>&copy Viktoriia Lysenko, powered by viktorialysenko on GitHub.  </p>
+       <p>&copy Viktoriia Lysenko, powered by viktorialysenko on GitHub.  </p>
     </footer>
 </html>

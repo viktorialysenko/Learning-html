@@ -29,67 +29,86 @@
         *{
             box-sizing: border-box;
             font-size: 2vw;
+            
         }
           div{
             border: thin solid goldenrod;
         }
          .header{
-            border:1px solid hotpink;
+            border:2px solid hotpink;
             padding: 15px;
+            text-align: center;
         }
         .menu {
-                width: 25%;
-                float: left;
+                width: 100%;
+              text-align: center;
                 padding: 15px;
-                border: 1px solid rgb(124, 124, 217);
+                border: 2px solid hotpink;    
             }
 
         .main {
-                width: 50%;
+                width: 75%;
                 float: left;
                 padding: 15px;
-                border: 1px solid rgb(112, 190, 56);
+                border: 2px solid rgb(112, 190, 56);
+              
             }
 
          .aside {
-                width: 25%;
-                float: left;
-                padding: 15px;
-                border: 1px solid rgb(214, 121, 46);
+            width: 25%;
+    border: 2px solid rgb(190, 56, 123);
+    float: right;
+    padding: 15px;
+    height: auto;
+            
             }
-    
+            
+        .section{
+            width: 75%;
+             float: right;
+             padding: 15px;
+            border: 2px solid rgb(214, 121, 46);
+           
+        }  
+        .article{
+            width: 30%;
+             float: left;
+             padding: 15px;
+            border: 2px solid rgb(119, 24, 132);
+            
+        }
+        .footer{
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            text-align: center;
+          border: 2px solid rgb(27, 116, 61);
+        }
+             
      </style>
     </head>
     <body>
-        <div><header class="header"><h1>Flexbox</h1></header></div>
-        <div><nav class="menu"><h1>Navigation</h1></nav></div>
         <div>
+        <header class="header"><h1>Flexbox</h1></header>
+        <nav class="menu"><h1>Navigation</h1></nav>
             <Aside class="aside">
                 <a>
                     This is a aside space
-                    <br><br><br>
                 </a>
+                <ul>
+                    <li><a href="https://viktorialysenko.github.io/Learning-html/">Index page</a></li>
+                  </ul>
+                <br><br><br>
             </Aside>
-        </div>
-        <div><main class="main"><h1>Main space</h1></main></div>
-        <div><section>Section</section></div>
-        <div><article>Article</article></div>
-        <div><footer></footer></div>
+        <main class="main"><h1>Main space</h1>
+        <section class="section"><h1>Section</h1>
+            <article class="article">Article</article>
+        </section>
+    </main>
+      </div>
     </body>
-    <footer>
+    <footer class="footer">
         <!-- Date Adcessed 20220919-->
-        <blockquote cite="https://www.keepinspiring.me/wp-content/uploads/2021/05/never-get-out-of-life-alive-elbert-hubbard-funny-quote.png">
-           <p>
-            <strong>
-                " Do not take life too seriously. You will never get out of it alive.
-            </strong>"
-            <em>
-                <a href="https://www.keepinspiring.me/wp-content/uploads/2021/05/never-get-out-of-life-alive-elbert-hubbard-funny-quote.png">
-                    Elbert Hubbard
-                </a>
-            </em>
-           </p>
-        </blockquote>
-        <p>&copy Viktoriia Lysenko, powered by viktorialysenko on GitHub.  </p>
+       <p>&copy Viktoriia Lysenko, powered by viktorialysenko on GitHub.  </p>
     </footer>
 </html>
