@@ -16,7 +16,7 @@ header {
 
 nav {
   background: #ccc;
-  padding: 20px;
+  padding: 10px;
 }
 
 article {
@@ -36,8 +36,6 @@ ul li {
 a{text-decoration: none;
 color:rgb(4, 25, 92); 
  font-weight:700;
-
-
 }
 
 footer {
